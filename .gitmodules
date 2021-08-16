@@ -1,0 +1,9 @@
+[submodule "pcbfiles/MX_Alps_Hybrid"]
+	path = pcbfiles/MX_Alps_Hybrid
+	url = https://dezlidezlidezli@github.com/ai03-2725/MX_Alps_Hybrid.git
+[submodule "pcbfiles/Type-C.pretty"]
+	path = pcbfiles/Type-C.pretty
+	url = https://dezlidezlidezli@github.com/ai03-2725/Type-C.pretty
+[submodule "pcbfiles/kicad-keyboard-parts.pretty"]
+	path = pcbfiles/kicad-keyboard-parts.pretty
+	url = https://dezlidezlidezli@github.com/ebastler/kicad-keyboard-parts.pretty

@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name kicad-keyboard-parts)(type KiCad)(uri /Users/malakai/Documents/TKL-choc-wireless/everything-really/kicad-keyboard-parts.pretty)(options "")(descr ""))
+  (lib (name mbk)(type KiCad)(uri /Users/malakai/Documents/TKL-choc-wireless/everything-really/mbk_footprints-main/mbk.pretty)(options "")(descr ""))
+  (lib (name custom-parts)(type KiCad)(uri /Users/malakai/Documents/TKL-choc-wireless/everything-really/custom-parts.pretty)(options "")(descr ""))
+)

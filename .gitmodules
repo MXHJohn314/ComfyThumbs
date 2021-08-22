@@ -7,3 +7,6 @@
 [submodule "pcbfiles/kicad-keyboard-parts.pretty"]
 	path = pcbfiles/kicad-keyboard-parts.pretty
 	url = https://dezlidezlidezli@github.com/ebastler/kicad-keyboard-parts.pretty
+[submodule "pcbfiles/Keebio-Parts.pretty"]
+	path = pcbfiles/Keebio-Parts.pretty
+	url = https://dezlidezlidezli@github.com/keebio/Keebio-Parts.pretty

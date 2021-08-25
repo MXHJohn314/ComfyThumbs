@@ -19,7 +19,7 @@ U 1 1 5FFE45B3
 P 1600 4850
 F 0 "U4" H 1600 6365 50  0000 C CNN
 F 1 "nRF52840_holyiot_18010" H 1600 6274 50  0000 C CNN
-F 2 "kicad-keyboard-parts:nRF52840_holyiot_18010" H 1700 5250 50  0001 C CNN
+F 2 "kicad-keyboard-parts:nRF52840_holyiot_18010_HS_simple" H 1700 5250 50  0001 C CNN
 F 3 "http://www.holyiot.com/tp/2019042516322180424.pdf" H 1700 5250 50  0001 C CNN
 	1    1600 4850
 	1    0    0    -1  
@@ -794,7 +794,7 @@ U 1 1 6132A536
 P 17600 4850
 F 0 "U1" H 17600 6365 50  0000 C CNN
 F 1 "nRF52840_holyiot_18010" H 17600 6274 50  0000 C CNN
-F 2 "kicad-keyboard-parts:nRF52840_holyiot_18010" H 17700 5250 50  0001 C CNN
+F 2 "kicad-keyboard-parts:nRF52840_holyiot_18010_HS_simple" H 17700 5250 50  0001 C CNN
 F 3 "http://www.holyiot.com/tp/2019042516322180424.pdf" H 17700 5250 50  0001 C CNN
 	1    17600 4850
 	1    0    0    -1  
@@ -1068,7 +1068,7 @@ $EndComp
 Wire Wire Line
 	20350 1000 21000 1000
 Text GLabel 19950 2800 0    50   Input ~ 0
-VBAT
+VBAT_B
 $Comp
 L Device:R_Small R13
 U 1 1 6132A5E8
@@ -1092,11 +1092,11 @@ F 3 "~" H 20750 2800 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR0114
+L power:GND1 #PWR0114
 U 1 1 6132A5F4
 P 21200 2800
 F 0 "#PWR0114" H 21200 2550 50  0001 C CNN
-F 1 "GND" V 21205 2672 50  0000 R CNN
+F 1 "GND1" V 21205 2672 50  0000 R CNN
 F 2 "" H 21200 2800 50  0001 C CNN
 F 3 "" H 21200 2800 50  0001 C CNN
 	1    21200 2800
@@ -1109,7 +1109,7 @@ Wire Wire Line
 Wire Wire Line
 	20350 2800 20500 2800
 Text GLabel 20500 3050 3    50   Input ~ 0
-BVOLT
+BVOLT_B
 Wire Wire Line
 	20500 2800 20500 3050
 Connection ~ 20500 2800
@@ -2649,13 +2649,13 @@ Wire Wire Line
 Wire Wire Line
 	5650 8900 5650 8550
 Text GLabel 6050 8750 0    50   Input ~ 0
-DB_ROW0
+DB1_ROW0
 Text GLabel 6750 8700 0    50   Input ~ 0
-DB_ROW1
+DB1_ROW1
 Text GLabel 6350 8100 0    50   Input ~ 0
-DB_COL0
+DB1_COL0
 Text GLabel 5650 8550 0    50   Input ~ 0
-DB_COL1
+DB1_COL1
 $Comp
 L Switch:SW_SPST SW40
 U 1 1 6142AA01

@@ -3974,13 +3974,13 @@ Wire Wire Line
 Wire Wire Line
 	21850 8350 21850 8000
 Text GLabel 22250 8200 0    50   Input ~ 0
-DB_ROW0_B
+DB1_ROW0_B
 Text GLabel 22950 8150 0    50   Input ~ 0
-DB_ROW1_B
+DB1_ROW1_B
 Text GLabel 22550 7550 0    50   Input ~ 0
-DB_COL0_B
+DB1_COL0_B
 Text GLabel 21850 8000 0    50   Input ~ 0
-DB_COL1_B
+DB1_COL1_B
 $Comp
 L Switch:SW_SPST SW90
 U 1 1 6175E990

@@ -4103,7 +4103,7 @@ DB2_COL1_B
 Text GLabel 25650 6700 3    50   Input ~ 0
 DB2_COL2_B
 Text GLabel 25750 6700 3    50   Input ~ 0
-DB2_ROW_B
+DB2_ROW0_B
 $Comp
 L power:GND1 #PWR0133
 U 1 1 6175E9D4

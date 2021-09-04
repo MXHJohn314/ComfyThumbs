@@ -4240,4 +4240,10 @@ Text GLabel 900  5400 0    50   Input ~ 0
 LH_ROW3
 Text GLabel 900  5600 0    50   Input ~ 0
 LH_ROW4
+Text GLabel 16900 5600 0    50   Input ~ 0
+DB2_COL0_B
+Text GLabel 16900 5500 0    50   Input ~ 0
+DB2_COL1_B
+Text GLabel 16900 5400 0    50   Input ~ 0
+DB2_COL2_B
 $EndSCHEMATC

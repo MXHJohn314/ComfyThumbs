@@ -564,7 +564,7 @@ U 1 1 6079E056
 P 5100 2050
 F 0 "BT1" V 4845 2100 50  0000 C CNN
 F 1 "Battery_Cell" V 4936 2100 50  0000 C CNN
-F 2 "custom-parts:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal" V 5100 2110 50  0001 C CNN
+F 2 "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal" V 5100 2110 50  0001 C CNN
 F 3 "~" V 5100 2110 50  0001 C CNN
 	1    5100 2050
 	0    1    1    0   
@@ -1270,7 +1270,7 @@ U 1 1 6132A660
 P 19450 7000
 F 0 "BT3" V 19195 7050 50  0000 C CNN
 F 1 "Battery_Cell" V 19286 7050 50  0000 C CNN
-F 2 "custom-parts:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal" V 19450 7060 50  0001 C CNN
+F 2 "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal" V 19450 7060 50  0001 C CNN
 F 3 "~" V 19450 7060 50  0001 C CNN
 	1    19450 7000
 	0    1    1    0   
@@ -4222,4 +4222,22 @@ Wire Wire Line
 Wire Wire Line
 	21200 4900 21200 5700
 Connection ~ 21200 3700
+Text GLabel 900  4700 0    50   Input ~ 0
+LH_COL0
+Text GLabel 900  4800 0    50   Input ~ 0
+LH_COL1
+Text GLabel 900  5500 0    50   Input ~ 0
+LH_COL2
+Text GLabel 900  5300 0    50   Input ~ 0
+DB1_COL0
+Text GLabel 900  5200 0    50   Input ~ 0
+DB1_COL1
+Text GLabel 900  5100 0    50   Input ~ 0
+DB1_ROW0
+Text GLabel 900  4900 0    50   Input ~ 0
+DB1_ROW1
+Text GLabel 900  5400 0    50   Input ~ 0
+LH_ROW3
+Text GLabel 900  5600 0    50   Input ~ 0
+LH_ROW4
 $EndSCHEMATC

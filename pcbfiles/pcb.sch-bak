@@ -4284,8 +4284,32 @@ Text GLabel 18300 5000 2    50   Input ~ 0
 RH_ROW0
 Text GLabel 16900 4900 0    50   Input ~ 0
 RH_COL0
-Text GLabel 19000 6350 1    30   Input ~ 0
+Text GLabel 16900 4800 0    30   Input ~ 0
 ENC_B_B
 Text GLabel 16900 4700 0    30   Input ~ 0
 ENC_A_B
+Text GLabel 1700 6300 3    50   Input ~ 0
+LH_COL3
+Text GLabel 2300 4800 2    50   Input ~ 0
+LH_COL5
+Text GLabel 1600 6300 3    50   Input ~ 0
+DB2_COL0
+Text GLabel 1500 6300 3    50   Input ~ 0
+DB2_COL1
+Text GLabel 1400 6300 3    50   Input ~ 0
+DB2_COL2
+Text GLabel 1300 6300 3    50   Input ~ 0
+DB2_ROW0
+Text GLabel 2300 4900 2    50   Input ~ 0
+LH_COL6
+Text GLabel 2300 4700 2    50   Input ~ 0
+LH_ROW5
+Text GLabel 2300 5700 2    50   Input ~ 0
+LH_COL4
+Text GLabel 2300 5000 2    30   Input ~ 0
+ENC_A
+Text GLabel 2300 5300 2    30   Input ~ 0
+ENC_B
+Text GLabel 2300 5400 2    50   Input ~ 0
+LH_ROW2
 $EndSCHEMATC

@@ -10,6 +10,3 @@
 [submodule "pcbfiles/Keebio-Parts.pretty"]
 	path = pcbfiles/Keebio-Parts.pretty
 	url = https://dezlidezlidezli@github.com/keebio/Keebio-Parts.pretty
-[submodule "pcbfiles/Keybage"]
-	path = pcbfiles/Keybage
-	url = https://github.com/Keybage/KeybageLibrary.git

@@ -742,7 +742,7 @@ U 1 1 607D949C
 P 5100 2450
 F 0 "BT2" V 4845 2500 50  0000 C CNN
 F 1 "Battery_Cell" V 4936 2500 50  0000 C CNN
-F 2 "custom-parts:custombatteryconnector" V 5100 2510 50  0001 C CNN
+F 2 "kicad-keyboard-parts:battery-custom-connector" V 5100 2510 50  0001 C CNN
 F 3 "~" V 5100 2510 50  0001 C CNN
 	1    5100 2450
 	0    1    1    0   
@@ -1425,7 +1425,7 @@ U 1 1 6132A6C2
 P 19450 7400
 F 0 "BT4" V 19195 7450 50  0000 C CNN
 F 1 "Battery_Cell" V 19286 7450 50  0000 C CNN
-F 2 "custom-parts:custombatteryconnector" V 19450 7460 50  0001 C CNN
+F 2 "kicad-keyboard-parts:battery-custom-connector" V 19450 7460 50  0001 C CNN
 F 3 "~" V 19450 7460 50  0001 C CNN
 	1    19450 7400
 	0    1    1    0   
@@ -4203,11 +4203,11 @@ Text GLabel 900  5500 0    50   Input ~ 0
 LH_COL2
 Text GLabel 900  5300 0    50   Input ~ 0
 DB1_COL0
-Text GLabel 900  5200 0    50   Input ~ 0
-DB1_COL1
-Text GLabel 900  5100 0    50   Input ~ 0
-DB1_ROW0
 Text GLabel 900  4900 0    50   Input ~ 0
+DB1_COL1
+Text GLabel 900  5200 0    50   Input ~ 0
+DB1_ROW0
+Text GLabel 900  5100 0    50   Input ~ 0
 DB1_ROW1
 Text GLabel 900  5400 0    50   Input ~ 0
 LH_ROW3
@@ -4217,10 +4217,6 @@ Text GLabel 16900 5600 0    50   Input ~ 0
 DB2_COL0_B
 Text GLabel 16900 5500 0    50   Input ~ 0
 DB2_COL1_B
-Text GLabel 16900 5400 0    50   Input ~ 0
-DB2_COL2_B
-Text GLabel 16900 5300 0    50   Input ~ 0
-DB2_ROW0_B
 Text GLabel 16900 5200 0    50   Input ~ 0
 RH_COL3
 Text GLabel 16900 5100 0    50   Input ~ 0
@@ -4235,13 +4231,13 @@ Text GLabel 17300 6300 3    50   Input ~ 0
 RH_COL3
 Text GLabel 17400 6300 3    50   Input ~ 0
 RH_COL2
-Text GLabel 18300 5700 2    50   Input ~ 0
-DB1_COL0_B
 Text GLabel 18300 5600 2    50   Input ~ 0
-DB1_COL1_B
-Text GLabel 18300 5500 2    50   Input ~ 0
-DB1_ROW0_B
+DB1_COL0_B
 Text GLabel 18300 5400 2    50   Input ~ 0
+DB1_COL1_B
+Text GLabel 18300 5700 2    50   Input ~ 0
+DB1_ROW0_B
+Text GLabel 18300 5500 2    50   Input ~ 0
 DB1_ROW1_B
 Text GLabel 18300 4700 2    50   Input ~ 0
 RH_COL6
@@ -4306,14 +4302,18 @@ DB1_ROW0_B
 Text GLabel 23150 6700 3    50   Input ~ 0
 DB1_ROW1_B
 $Comp
-L power:GND1 #PWR?
+L power:GND1 #PWR0132
 U 1 1 61585969
 P 23350 6700
-F 0 "#PWR?" H 23350 6450 50  0001 C CNN
+F 0 "#PWR0132" H 23350 6450 50  0001 C CNN
 F 1 "GND1" H 23355 6527 50  0000 C CNN
 F 2 "" H 23350 6700 50  0001 C CNN
 F 3 "" H 23350 6700 50  0001 C CNN
 	1    23350 6700
 	1    0    0    -1  
 $EndComp
+Text GLabel 16900 5300 0    50   Input ~ 0
+DB2_ROW0_B
+Text GLabel 16900 5400 0    50   Input ~ 0
+DB2_COL2_B
 $EndSCHEMATC

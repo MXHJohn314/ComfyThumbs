@@ -4201,13 +4201,13 @@ Text GLabel 900  4800 0    50   Input ~ 0
 LH_COL1
 Text GLabel 900  5500 0    50   Input ~ 0
 LH_COL2
-Text GLabel 900  5300 0    50   Input ~ 0
-DB1_COL0
 Text GLabel 900  5200 0    50   Input ~ 0
-DB1_COL1
-Text GLabel 900  5100 0    50   Input ~ 0
-DB1_ROW0
+DB1_COL0
 Text GLabel 900  4900 0    50   Input ~ 0
+DB1_COL1
+Text GLabel 900  5300 0    50   Input ~ 0
+DB1_ROW0
+Text GLabel 900  5100 0    50   Input ~ 0
 DB1_ROW1
 Text GLabel 900  5400 0    50   Input ~ 0
 LH_ROW3
@@ -4217,10 +4217,6 @@ Text GLabel 16900 5600 0    50   Input ~ 0
 DB2_COL0_B
 Text GLabel 16900 5500 0    50   Input ~ 0
 DB2_COL1_B
-Text GLabel 16900 5400 0    50   Input ~ 0
-DB2_COL2_B
-Text GLabel 16900 5300 0    50   Input ~ 0
-DB2_ROW0_B
 Text GLabel 16900 5200 0    50   Input ~ 0
 RH_COL3
 Text GLabel 16900 5100 0    50   Input ~ 0
@@ -4235,13 +4231,13 @@ Text GLabel 17300 6300 3    50   Input ~ 0
 RH_COL3
 Text GLabel 17400 6300 3    50   Input ~ 0
 RH_COL2
-Text GLabel 18300 5700 2    50   Input ~ 0
-DB1_COL0_B
 Text GLabel 18300 5600 2    50   Input ~ 0
-DB1_COL1_B
-Text GLabel 18300 5500 2    50   Input ~ 0
-DB1_ROW0_B
+DB1_COL0_B
 Text GLabel 18300 5400 2    50   Input ~ 0
+DB1_COL1_B
+Text GLabel 18300 5700 2    50   Input ~ 0
+DB1_ROW0_B
+Text GLabel 18300 5500 2    50   Input ~ 0
 DB1_ROW1_B
 Text GLabel 18300 4700 2    50   Input ~ 0
 RH_COL6
@@ -4316,4 +4312,8 @@ F 3 "" H 23350 6700 50  0001 C CNN
 	1    23350 6700
 	1    0    0    -1  
 $EndComp
+Text GLabel 16900 5300 0    50   Input ~ 0
+DB2_ROW0_B
+Text GLabel 16900 5400 0    50   Input ~ 0
+DB2_COL2_B
 $EndSCHEMATC

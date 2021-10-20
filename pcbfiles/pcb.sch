@@ -4272,15 +4272,4 @@ F 3 "~" H 25650 6500 50  0001 C CNN
 	1    25650 6500
 	0    -1   -1   0   
 $EndComp
-$Comp
-L Connector_Generic:Conn_01x05 J2
-U 1 1 612FA838
-P 6250 7050
-F 0 "J2" V 6214 6762 50  0000 R CNN
-F 1 "Conn_01x05" V 6123 6762 50  0000 R CNN
-F 2 "Connector_JST:JST_SH_SM05B-SRSS-TB_1x05-1MP_P1.00mm_Horizontal" H 6250 7050 50  0001 C CNN
-F 3 "~" H 6250 7050 50  0001 C CNN
-	1    6250 7050
-	0    -1   -1   0   
-$EndComp
 $EndSCHEMATC

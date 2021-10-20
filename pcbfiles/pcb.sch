@@ -2424,17 +2424,6 @@ Wire Wire Line
 Connection ~ 9200 4450
 Wire Wire Line
 	9200 4450 8500 4450
-$Comp
-L Connector_Generic:Conn_01x05 J2
-U 1 1 612FA838
-P 6250 7050
-F 0 "J2" V 6214 6762 50  0000 R CNN
-F 1 "Conn_01x05" V 6123 6762 50  0000 R CNN
-F 2 "Connector_JST:JST_SH_SM05B-SRSS-TB_1x05-1MP_P1.00mm_Horizontal" H 6250 7050 50  0001 C CNN
-F 3 "~" H 6250 7050 50  0001 C CNN
-	1    6250 7050
-	0    -1   -1   0   
-$EndComp
 Text GLabel 6150 7250 3    50   Input ~ 0
 DB1_COL0
 Text GLabel 6350 7250 3    50   Input ~ 0
@@ -2720,17 +2709,6 @@ F 1 "D_Small" V 9105 8480 50  0000 R CNN
 F 2 "Diode_SMD:D_SOD-123" V 9150 8550 50  0001 C CNN
 F 3 "~" V 9150 8550 50  0001 C CNN
 	1    9150 8550
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x05 J3
-U 1 1 615D7014
-P 6950 7050
-F 0 "J3" V 6914 6762 50  0000 R CNN
-F 1 "Conn_01x05" V 6823 6762 50  0000 R CNN
-F 2 "Connector_JST:JST_SH_SM05B-SRSS-TB_1x05-1MP_P1.00mm_Horizontal" H 6950 7050 50  0001 C CNN
-F 3 "~" H 6950 7050 50  0001 C CNN
-	1    6950 7050
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -3748,17 +3726,6 @@ Wire Wire Line
 	25100 3900 24400 3900
 Wire Wire Line
 	25800 3900 25100 3900
-$Comp
-L Connector_Generic:Conn_01x05 J7
-U 1 1 6175E909
-P 22450 6500
-F 0 "J7" V 22414 6212 50  0000 R CNN
-F 1 "Conn_01x05" V 22323 6212 50  0000 R CNN
-F 2 "Connector_JST:JST_SH_SM05B-SRSS-TB_1x05-1MP_P1.00mm_Horizontal" H 22450 6500 50  0001 C CNN
-F 3 "~" H 22450 6500 50  0001 C CNN
-	1    22450 6500
-	0    -1   -1   0   
-$EndComp
 Text GLabel 22350 6700 3    50   Input ~ 0
 DB1_COL0_B
 Text GLabel 22550 6700 3    50   Input ~ 0
@@ -4037,17 +4004,6 @@ F 3 "~" V 25750 8000 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x05 J8
-U 1 1 6175E9B4
-P 23150 6500
-F 0 "J8" V 23114 6212 50  0000 R CNN
-F 1 "Conn_01x05" V 23023 6212 50  0000 R CNN
-F 2 "Connector_JST:JST_SH_SM05B-SRSS-TB_1x05-1MP_P1.00mm_Horizontal" H 23150 6500 50  0001 C CNN
-F 3 "~" H 23150 6500 50  0001 C CNN
-	1    23150 6500
-	0    -1   -1   0   
-$EndComp
-$Comp
 L power:GND1 #PWR0131
 U 1 1 6175E9BE
 P 22650 6700
@@ -4057,17 +4013,6 @@ F 2 "" H 22650 6700 50  0001 C CNN
 F 3 "" H 22650 6700 50  0001 C CNN
 	1    22650 6700
 	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x05 J9
-U 1 1 6175E9CA
-P 25650 6500
-F 0 "J9" V 25614 6212 50  0000 R CNN
-F 1 "Conn_01x05" V 25523 6212 50  0000 R CNN
-F 2 "Connector_JST:JST_SH_SM05B-SRSS-TB_1x05-1MP_P1.00mm_Horizontal" H 25650 6500 50  0001 C CNN
-F 3 "~" H 25650 6500 50  0001 C CNN
-	1    25650 6500
-	0    -1   -1   0   
 $EndComp
 Text GLabel 25450 6700 3    50   Input ~ 0
 DB2_COL0_B
@@ -4087,17 +4032,6 @@ F 2 "" H 25850 6700 50  0001 C CNN
 F 3 "" H 25850 6700 50  0001 C CNN
 	1    25850 6700
 	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x05 J10
-U 1 1 6175E9DA
-P 26350 6500
-F 0 "J10" V 26314 6212 50  0000 R CNN
-F 1 "Conn_01x05" V 26223 6212 50  0000 R CNN
-F 2 "Connector_JST:JST_SH_SM05B-SRSS-TB_1x05-1MP_P1.00mm_Horizontal" H 26350 6500 50  0001 C CNN
-F 3 "~" H 26350 6500 50  0001 C CNN
-	1    26350 6500
-	0    -1   -1   0   
 $EndComp
 Text GLabel 26150 6700 3    50   Input ~ 0
 DB2_COL0_B
@@ -4316,4 +4250,37 @@ Text GLabel 16900 5300 0    50   Input ~ 0
 DB2_ROW0_B
 Text GLabel 16900 5400 0    50   Input ~ 0
 DB2_COL2_B
+$Comp
+L Connector_Generic:Conn_01x05 J10
+U 1 1 6175E9DA
+P 26350 6500
+F 0 "J10" V 26314 6212 50  0000 R CNN
+F 1 "Conn_01x05" V 26223 6212 50  0000 R CNN
+F 2 "Connector_JST:JST_SH_SM05B-SRSS-TB_1x05-1MP_P1.00mm_Horizontal" H 26350 6500 50  0001 C CNN
+F 3 "~" H 26350 6500 50  0001 C CNN
+	1    26350 6500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x05 J9
+U 1 1 6175E9CA
+P 25650 6500
+F 0 "J9" V 25614 6212 50  0000 R CNN
+F 1 "Conn_01x05" V 25523 6212 50  0000 R CNN
+F 2 "Connector_JST:JST_SH_SM05B-SRSS-TB_1x05-1MP_P1.00mm_Horizontal" H 25650 6500 50  0001 C CNN
+F 3 "~" H 25650 6500 50  0001 C CNN
+	1    25650 6500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x05 J2
+U 1 1 612FA838
+P 6250 7050
+F 0 "J2" V 6214 6762 50  0000 R CNN
+F 1 "Conn_01x05" V 6123 6762 50  0000 R CNN
+F 2 "Connector_JST:JST_SH_SM05B-SRSS-TB_1x05-1MP_P1.00mm_Horizontal" H 6250 7050 50  0001 C CNN
+F 3 "~" H 6250 7050 50  0001 C CNN
+	1    6250 7050
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC

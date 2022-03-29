@@ -1,6 +1,6 @@
 # ComfyThumbs
 
-A column-staggered keyboard inspired by comfortable and efficient thumb use and keycap compatibility.
+An ortholinear keyboard inspired by comfortable and efficient thumb use and keycap compatibility.
 
 ### The Default Keymap
 <h5><b>Comfy Thumbs Rev 1</b></h5>

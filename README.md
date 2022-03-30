@@ -6,7 +6,7 @@ An ortholinear keyboard inspired by comfortable and efficient thumb use and keyc
 <h5><b>Comfy Thumbs Rev 1</b></h5>
 
 
-[Check out the Gist on Keyboard Layout Editor](http://www.keyboard-layout-editor.com/#/gists/f06e432c5aefd1113cb8e74766a2c700)
+[Check out the Gist on Keyboard Layout Editor](http://www.keyboard-layout-editor.com/#/gists/6e3f5187b3880fc6f90e6d99fbade827)
 ![Default Keymap](./ComfyThumbsLayout.jpg)
 <p>
 

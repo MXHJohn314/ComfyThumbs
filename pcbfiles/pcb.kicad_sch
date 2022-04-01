@@ -2089,6 +2089,9 @@
   (junction (at 80.01 40.64) (diameter 0) (color 0 0 0 0)
     (uuid 6bd32606-b84f-483f-980a-07aa3840a919)
   )
+  (junction (at 590.042 66.294) (diameter 0) (color 0 0 0 0)
+    (uuid 6c2c8456-b31d-44f3-99e4-d2f83e6d13b1)
+  )
   (junction (at 97.79 50.8) (diameter 0) (color 0 0 0 0)
     (uuid 6cc3ac89-4f4f-4c45-baa8-e094106dd231)
   )
@@ -2608,7 +2611,7 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 3a70978e-dcc2-4620-a99c-514362812927)
   )
-  (wire (pts (xy 590.042 56.134) (xy 590.042 76.454))
+  (wire (pts (xy 590.042 56.134) (xy 590.042 66.294))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 3b53be70-8bbf-4fac-8f44-e59c6521e9a1)
   )
@@ -2971,6 +2974,10 @@
   (wire (pts (xy 494.665 191.77) (xy 494.665 199.39))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 89a8e170-a222-41c0-b545-c9f4c5604011)
+  )
+  (wire (pts (xy 590.042 66.294) (xy 590.042 76.454))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid 8a395960-3818-4b30-b8a3-9abc2df58d73)
   )
   (wire (pts (xy 71.755 156.21) (xy 74.295 156.21))
     (stroke (width 0) (type default) (color 0 0 0 0))
@@ -4381,8 +4388,8 @@
     (pin "4" (uuid 75cc885c-5e51-4fde-8fba-05d103868276))
     (pin "40" (uuid 36d6fd85-1246-40f2-bbe1-7f5a449d64d8))
     (pin "41" (uuid c6c5ca56-dd4d-4b21-8856-813cfcbdb8ac))
-    (pin "42" (uuid a0334aa5-23a4-4f37-ae72-350c9c2f7f72))
-    (pin "42" (uuid a0334aa5-23a4-4f37-ae72-350c9c2f7f72))
+    (pin "42" (uuid a0334aa5-23a4-4f37-ae72-350c9c2f7f73))
+    (pin "42" (uuid a0334aa5-23a4-4f37-ae72-350c9c2f7f73))
     (pin "43" (uuid 18b4d60a-fa1b-49f4-b478-0506f10cea7f))
     (pin "45" (uuid eee757ff-c469-460a-9e65-c9beda657861))
     (pin "46" (uuid 42ebafdd-13e4-4db2-a9a8-ffac11137c95))
@@ -4999,7 +5006,7 @@
   (symbol (lib_id "Device:D_Schottky_Small") (at 183.515 165.1 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000600ad062)
-    (property "Reference" "D89" (id 0) (at 183.515 159.8422 0))
+    (property "Reference" "D90" (id 0) (at 183.515 159.8422 0))
     (property "Value" "1N5819" (id 1) (at 183.515 162.1536 0))
     (property "Footprint" "Diode_SMD:D_SOD-123" (id 2) (at 183.515 165.1 90)
       (effects (font (size 1.27 1.27)) hide)
@@ -5085,7 +5092,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 193.675 191.77 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000600c3204)
-    (property "Reference" "SW92" (id 0) (at 193.675 185.801 0))
+    (property "Reference" "SW93" (id 0) (at 193.675 185.801 0))
     (property "Value" "SW_SPST" (id 1) (at 193.675 188.1124 0))
     (property "Footprint" "Keebio-Parts:SW_SPST_TL3342" (id 2) (at 193.675 191.77 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -5118,7 +5125,7 @@
   (symbol (lib_id "Power_Protection:PRTR5V0U2X") (at 71.755 168.91 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000060201668)
-    (property "Reference" "D91" (id 0) (at 64.135 162.56 90)
+    (property "Reference" "D92" (id 0) (at 64.135 162.56 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SR05" (id 1) (at 64.135 163.83 90)
@@ -5174,7 +5181,7 @@
   (symbol (lib_id "Device:LED_Small") (at 116.205 217.17 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00006076628e)
-    (property "Reference" "D93" (id 0) (at 116.205 211.9122 0))
+    (property "Reference" "D94" (id 0) (at 116.205 211.9122 0))
     (property "Value" "LED_Small" (id 1) (at 116.205 214.2236 0))
     (property "Footprint" "Diode_SMD:D_0805_2012Metric" (id 2) (at 116.205 217.17 90)
       (effects (font (size 1.27 1.27)) hide)
@@ -5237,7 +5244,7 @@
   (symbol (lib_id "Switch:SW_SPDT") (at 155.575 177.8 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000607a14fa)
-    (property "Reference" "SW91" (id 0) (at 155.575 169.545 0))
+    (property "Reference" "SW92" (id 0) (at 155.575 169.545 0))
     (property "Value" "SW_SPDT" (id 1) (at 155.575 171.8564 0))
     (property "Footprint" "Button_Switch_SMD:SW_SPDT_PCM12" (id 2) (at 155.575 177.8 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -5321,7 +5328,7 @@
   (symbol (lib_id "Device:Rotary_Encoder_Switch") (at 74.295 131.445 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000612a8b55)
-    (property "Reference" "SW89" (id 0) (at 75.565 123.19 0)
+    (property "Reference" "SW90" (id 0) (at 75.565 123.19 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Rotary_Encoder_Switch" (id 1) (at 75.565 125.095 0)
@@ -5403,8 +5410,8 @@
     (pin "4" (uuid 3d2d0184-9304-44d3-b307-b9b8494cf301))
     (pin "40" (uuid 39a5e956-8392-4aa6-9bf7-6564ceecff06))
     (pin "41" (uuid eb727369-86fc-4a2c-bb7a-1683392d5f82))
-    (pin "42" (uuid 6bc03319-fb0c-4eb6-a744-8182e90a1bfe))
-    (pin "42" (uuid 6bc03319-fb0c-4eb6-a744-8182e90a1bfe))
+    (pin "42" (uuid 6bc03319-fb0c-4eb6-a744-8182e90a1bff))
+    (pin "42" (uuid 6bc03319-fb0c-4eb6-a744-8182e90a1bff))
     (pin "43" (uuid 5ec4efca-a682-4804-b74b-522548ab3414))
     (pin "45" (uuid 9ae8af84-0da6-47ba-96e3-098d471d19b7))
     (pin "46" (uuid 3abc0c4f-7095-474b-bc9e-2e991b4bf332))
@@ -5879,7 +5886,7 @@
   (symbol (lib_id "Device:D_Schottky_Small") (at 640.715 165.1 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00006132a622)
-    (property "Reference" "D90" (id 0) (at 640.715 159.8422 0))
+    (property "Reference" "D91" (id 0) (at 640.715 159.8422 0))
     (property "Value" "1N5819" (id 1) (at 640.715 162.1536 0))
     (property "Footprint" "Diode_SMD:D_SOD-123" (id 2) (at 640.715 165.1 90)
       (effects (font (size 1.27 1.27)) hide)
@@ -5910,7 +5917,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 650.875 191.77 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00006132a63e)
-    (property "Reference" "SW93" (id 0) (at 650.875 185.801 0))
+    (property "Reference" "SW94" (id 0) (at 650.875 185.801 0))
     (property "Value" "SW_SPST" (id 1) (at 650.875 188.1124 0))
     (property "Footprint" "Keebio-Parts:SW_SPST_TL3342" (id 2) (at 650.875 191.77 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -5943,7 +5950,7 @@
   (symbol (lib_id "Device:LED_Small") (at 569.595 217.17 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00006132a64d)
-    (property "Reference" "D94" (id 0) (at 569.595 211.9122 0))
+    (property "Reference" "D95" (id 0) (at 569.595 211.9122 0))
     (property "Value" "LED_Small" (id 1) (at 569.595 214.2236 0))
     (property "Footprint" "Diode_SMD:D_0805_2012Metric" (id 2) (at 569.595 217.17 90)
       (effects (font (size 1.27 1.27)) hide)
@@ -6006,7 +6013,7 @@
   (symbol (lib_id "Switch:SW_SPDT") (at 570.865 303.53 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00006132a666)
-    (property "Reference" "SW94" (id 0) (at 570.865 295.275 0))
+    (property "Reference" "SW95" (id 0) (at 570.865 295.275 0))
     (property "Value" "SW_SPDT" (id 1) (at 570.865 297.5864 0))
     (property "Footprint" "Button_Switch_SMD:SW_SPDT_PCM12" (id 2) (at 570.865 303.53 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -6079,7 +6086,7 @@
   (symbol (lib_id "Power_Protection:PRTR5V0U2X") (at 528.955 168.91 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00006132a698)
-    (property "Reference" "D92" (id 0) (at 521.335 162.56 90)
+    (property "Reference" "D93" (id 0) (at 521.335 162.56 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SR05" (id 1) (at 521.335 163.83 90)
@@ -6237,7 +6244,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 110.49 113.665 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00006142aa01)
-    (property "Reference" "SW83" (id 0) (at 110.49 107.696 0))
+    (property "Reference" "SW84" (id 0) (at 110.49 107.696 0))
     (property "Value" "SW_SPST" (id 1) (at 110.49 110.0074 0))
     (property "Footprint" "MX_Only:MXOnly-1U-Hotswap" (id 2) (at 110.49 113.665 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -6252,7 +6259,7 @@
   (symbol (lib_id "Device:D_Small") (at 115.57 116.205 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00006142aa07)
-    (property "Reference" "D83" (id 0) (at 117.348 115.0366 90)
+    (property "Reference" "D84" (id 0) (at 117.348 115.0366 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D_Small" (id 1) (at 117.348 117.348 90)
@@ -6271,7 +6278,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 128.27 113.665 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000614378bd)
-    (property "Reference" "SW84" (id 0) (at 128.27 107.696 0))
+    (property "Reference" "SW85" (id 0) (at 128.27 107.696 0))
     (property "Value" "SW_SPST" (id 1) (at 128.27 110.0074 0))
     (property "Footprint" "MX_Only:MXOnly-1U-Hotswap" (id 2) (at 128.27 113.665 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -6286,7 +6293,7 @@
   (symbol (lib_id "Device:D_Small") (at 133.35 116.205 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000614378c3)
-    (property "Reference" "D84" (id 0) (at 135.128 115.0366 90)
+    (property "Reference" "D85" (id 0) (at 135.128 115.0366 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D_Small" (id 1) (at 135.128 117.348 90)
@@ -6305,9 +6312,9 @@
   (symbol (lib_id "Switch:SW_SPST") (at 92.71 103.505 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00006144333d)
-    (property "Reference" "SW74" (id 0) (at 92.71 97.536 0))
+    (property "Reference" "SW75" (id 0) (at 92.71 97.536 0))
     (property "Value" "SW_SPST" (id 1) (at 92.71 99.8474 0))
-    (property "Footprint" "MX_Only:MXOnly-1U-Hotswap" (id 2) (at 92.71 103.505 0)
+    (property "Footprint" "MX_Only:MXOnly-1.25U-Hotswap" (id 2) (at 92.71 103.505 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 92.71 103.505 0)
@@ -6320,7 +6327,7 @@
   (symbol (lib_id "Device:D_Small") (at 97.79 116.205 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061443343)
-    (property "Reference" "D82" (id 0) (at 99.568 115.0366 90)
+    (property "Reference" "D83" (id 0) (at 99.568 115.0366 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D_Small" (id 1) (at 99.568 117.348 90)
@@ -6384,7 +6391,7 @@
   (symbol (lib_id "Device:D_Small") (at 546.862 78.994 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 06b7d4b9-e983-4dfa-b9a9-87a4d8650d02)
-    (property "Reference" "D63" (id 0) (at 548.64 77.8256 90)
+    (property "Reference" "D64" (id 0) (at 548.64 77.8256 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D_Small" (id 1) (at 548.64 80.137 90)
@@ -6403,7 +6410,7 @@
   (symbol (lib_id "Device:D_Small") (at 511.302 78.994 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 06e436cd-bb3b-467f-8cfe-1337a1410060)
-    (property "Reference" "D61" (id 0) (at 513.08 77.8256 90)
+    (property "Reference" "D62" (id 0) (at 513.08 77.8256 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D_Small" (id 1) (at 513.08 80.137 90)
@@ -6422,7 +6429,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 506.222 114.046 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 072e5554-bae8-4d98-b7cc-521cdbbea126)
-    (property "Reference" "SW85" (id 0) (at 506.222 108.077 0))
+    (property "Reference" "SW86" (id 0) (at 506.222 108.077 0))
     (property "Value" "SW_SPST" (id 1) (at 506.222 110.3884 0))
     (property "Footprint" "MX_Only:MXOnly-1U-Hotswap" (id 2) (at 506.222 114.046 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -6437,7 +6444,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 506.222 76.454 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 08a165a7-ccee-41b4-b99d-139490e071ca)
-    (property "Reference" "SW61" (id 0) (at 506.222 70.485 0))
+    (property "Reference" "SW62" (id 0) (at 506.222 70.485 0))
     (property "Value" "SW_SPST" (id 1) (at 506.222 72.7964 0))
     (property "Footprint" "MX_Only:MXOnly-1U-Hotswap" (id 2) (at 506.222 76.454 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -6452,7 +6459,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 39.37 86.36 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 0a399abe-dcc4-49e4-a240-600e8d5438eb)
-    (property "Reference" "SW67" (id 0) (at 39.37 80.391 0))
+    (property "Reference" "SW68" (id 0) (at 39.37 80.391 0))
     (property "Value" "SW_SPST" (id 1) (at 39.37 82.7024 0))
     (property "Footprint" "MX_Only:MXOnly-1.25U-Hotswap" (id 2) (at 39.37 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -6539,7 +6546,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 559.562 103.886 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 125bb8dd-745e-4b63-82d5-102aaca46205)
-    (property "Reference" "SW80" (id 0) (at 559.562 97.917 0))
+    (property "Reference" "SW81" (id 0) (at 559.562 97.917 0))
     (property "Value" "SW_SPST" (id 1) (at 559.562 100.2284 0))
     (property "Footprint" "MX_Only:MXOnly-1U-Hotswap" (id 2) (at 559.562 103.886 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -6592,7 +6599,7 @@
   (symbol (lib_id "Device:D_Small") (at 80.01 116.205 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 153a16cc-d18a-45e0-8279-f60fd84920a6)
-    (property "Reference" "D81" (id 0) (at 81.788 115.0366 90)
+    (property "Reference" "D82" (id 0) (at 81.788 115.0366 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D_Small" (id 1) (at 81.788 117.348 90)
@@ -6630,7 +6637,7 @@
   (symbol (lib_id "Device:D_Small") (at 115.57 78.74 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 17b787ff-0994-4a57-8ec9-aa2256743d06)
-    (property "Reference" "D59" (id 0) (at 117.348 77.5716 90)
+    (property "Reference" "D60" (id 0) (at 117.348 77.5716 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D_Small" (id 1) (at 117.348 79.883 90)
@@ -6668,7 +6675,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 128.27 76.2 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 1b6403c6-cd7b-4518-b4ee-84dfd9d27955)
-    (property "Reference" "SW60" (id 0) (at 128.27 70.231 0))
+    (property "Reference" "SW61" (id 0) (at 128.27 70.231 0))
     (property "Value" "SW_SPST" (id 1) (at 128.27 72.5424 0))
     (property "Footprint" "MX_Only:MXOnly-1U-Hotswap" (id 2) (at 128.27 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -6698,7 +6705,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 57.15 76.2 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 1c5bb74a-0844-4f8a-977e-cf307165c739)
-    (property "Reference" "SW56" (id 0) (at 57.15 70.231 0))
+    (property "Reference" "SW57" (id 0) (at 57.15 70.231 0))
     (property "Value" "SW_SPST" (id 1) (at 57.15 72.5424 0))
     (property "Footprint" "MX_Only:MXOnly-1U-Hotswap" (id 2) (at 57.15 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -6713,7 +6720,7 @@
   (symbol (lib_id "Device:D_Small") (at 62.23 88.9 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 20962b73-c378-4c45-9442-82007c0d2370)
-    (property "Reference" "D68" (id 0) (at 64.008 87.7316 90)
+    (property "Reference" "D69" (id 0) (at 64.008 87.7316 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D_Small" (id 1) (at 64.008 90.043 90)
@@ -6781,7 +6788,7 @@
   (symbol (lib_id "Device:D_Small") (at 529.082 116.586 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 25a7c391-a6d5-4333-ac31-f99b56646c3c)
-    (property "Reference" "D86" (id 0) (at 530.86 115.4176 90)
+    (property "Reference" "D87" (id 0) (at 530.86 115.4176 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D_Small" (id 1) (at 530.86 117.729 90)
@@ -6948,7 +6955,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 92.71 76.2 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 34efd530-624c-403c-b80a-06bbc99edd5d)
-    (property "Reference" "SW58" (id 0) (at 92.71 70.231 0))
+    (property "Reference" "SW59" (id 0) (at 92.71 70.231 0))
     (property "Value" "SW_SPST" (id 1) (at 92.71 72.5424 0))
     (property "Footprint" "MX_Only:MXOnly-1U-Hotswap" (id 2) (at 92.71 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -6963,7 +6970,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 559.562 76.454 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 35c0778f-6949-45ff-9751-9bdbcd0057e1)
-    (property "Reference" "SW64" (id 0) (at 559.562 70.485 0))
+    (property "Reference" "SW65" (id 0) (at 559.562 70.485 0))
     (property "Value" "SW_SPST" (id 1) (at 559.562 72.7964 0))
     (property "Footprint" "MX_Only:MXOnly-1U-Hotswap" (id 2) (at 559.562 76.454 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -7024,10 +7031,29 @@
     (pin "2" (uuid 66438280-b642-4de7-a5f5-2c4a07a93419))
   )
 
+  (symbol (lib_id "Device:D_Small") (at 600.202 68.834 90) (unit 1)
+    (in_bom yes) (on_board yes)
+    (uuid 3ad2b82e-b34e-4186-bb64-b696ec9af188)
+    (property "Reference" "D55" (id 0) (at 601.98 67.6656 90)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Value" "D_Small" (id 1) (at 601.98 69.977 90)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "Diode_SMD:D_SOD-123" (id 2) (at 600.202 68.834 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 600.202 68.834 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 2e858d61-dc88-49dc-88ee-08a1697b33c4))
+    (pin "2" (uuid 9c1adfe4-75ab-4ee7-bf92-028c30eb5e77))
+  )
+
   (symbol (lib_id "Device:D_Small") (at 564.642 106.426 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 3c57829b-c7e9-4b78-9219-07f12112ca88)
-    (property "Reference" "D80" (id 0) (at 566.42 105.2576 90)
+    (property "Reference" "D81" (id 0) (at 566.42 105.2576 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D_Small" (id 1) (at 566.42 107.569 90)
@@ -7080,7 +7106,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 577.342 86.614 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 4173fd77-51b6-4d96-a24a-e3a75a365b7f)
-    (property "Reference" "SW71" (id 0) (at 577.342 80.645 0))
+    (property "Reference" "SW72" (id 0) (at 577.342 80.645 0))
     (property "Value" "SW_SPST" (id 1) (at 577.342 82.9564 0))
     (property "Footprint" "MX_Only:MXOnly-2U-Hotswap-ReversedStabilizers" (id 2) (at 577.342 86.614 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -7095,7 +7121,7 @@
   (symbol (lib_id "Device:D_Small") (at 564.642 116.586 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 44785c7b-26bf-4404-ac8d-3b3fe6773e92)
-    (property "Reference" "D88" (id 0) (at 566.42 115.4176 90)
+    (property "Reference" "D89" (id 0) (at 566.42 115.4176 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D_Small" (id 1) (at 566.42 117.729 90)
@@ -7129,7 +7155,7 @@
   (symbol (lib_id "Device:D_Small") (at 511.302 89.154 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 458f8155-4c61-4e51-87c1-4681b0b1b614)
-    (property "Reference" "D70" (id 0) (at 513.08 87.9856 90)
+    (property "Reference" "D71" (id 0) (at 513.08 87.9856 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D_Small" (id 1) (at 513.08 90.297 90)
@@ -7201,7 +7227,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 595.122 86.614 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 497bc44f-43cd-4a3b-9323-f81df34db7dd)
-    (property "Reference" "SW72" (id 0) (at 595.122 80.645 0))
+    (property "Reference" "SW73" (id 0) (at 595.122 80.645 0))
     (property "Value" "SW_SPST" (id 1) (at 595.122 82.9564 0))
     (property "Footprint" "MX_Only:MXOnly-1.25U-Hotswap" (id 2) (at 595.122 86.614 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -7250,7 +7276,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 524.002 114.046 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 4cc705eb-dbe6-4171-88ee-b912825d8231)
-    (property "Reference" "SW86" (id 0) (at 524.002 108.077 0))
+    (property "Reference" "SW87" (id 0) (at 524.002 108.077 0))
     (property "Value" "SW_SPST" (id 1) (at 524.002 110.3884 0))
     (property "Footprint" "MX_Only:MXOnly-1U-Hotswap" (id 2) (at 524.002 114.046 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -7265,7 +7291,7 @@
   (symbol (lib_id "Device:D_Small") (at 564.642 78.994 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 515fdd07-b2b2-471a-b046-abc3225a0937)
-    (property "Reference" "D64" (id 0) (at 566.42 77.8256 90)
+    (property "Reference" "D65" (id 0) (at 566.42 77.8256 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D_Small" (id 1) (at 566.42 80.137 90)
@@ -7303,7 +7329,7 @@
   (symbol (lib_id "Device:D_Small") (at 115.57 106.045 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 548b1a5f-bb2f-4969-b21a-767bfc4b060b)
-    (property "Reference" "D75" (id 0) (at 117.348 104.8766 90)
+    (property "Reference" "D76" (id 0) (at 117.348 104.8766 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D_Small" (id 1) (at 117.348 107.188 90)
@@ -7322,7 +7348,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 39.37 76.2 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 5730edc7-c9d0-4a84-97b4-55a6421a1d75)
-    (property "Reference" "SW55" (id 0) (at 39.37 70.231 0))
+    (property "Reference" "SW56" (id 0) (at 39.37 70.231 0))
     (property "Value" "SW_SPST" (id 1) (at 39.37 72.5424 0))
     (property "Footprint" "MX_Only:MXOnly-1.75U-Hotswap" (id 2) (at 39.37 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -7337,7 +7363,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 74.93 113.665 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 5b145c59-359c-4ad1-9968-7874051fd0d2)
-    (property "Reference" "SW81" (id 0) (at 74.93 107.696 0))
+    (property "Reference" "SW82" (id 0) (at 74.93 107.696 0))
     (property "Value" "SW_SPST" (id 1) (at 74.93 110.0074 0))
     (property "Footprint" "MX_Only:MXOnly-1U-Hotswap" (id 2) (at 74.93 113.665 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -7431,9 +7457,9 @@
   (symbol (lib_id "Switch:SW_SPST") (at 74.93 103.505 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 621276d1-051c-4225-bde8-c32b4ed05998)
-    (property "Reference" "SW73" (id 0) (at 74.93 97.536 0))
+    (property "Reference" "SW74" (id 0) (at 74.93 97.536 0))
     (property "Value" "SW_SPST" (id 1) (at 74.93 99.8474 0))
-    (property "Footprint" "MX_Only:MXOnly-1U-Hotswap" (id 2) (at 74.93 103.505 0)
+    (property "Footprint" "MX_Only:MXOnly-2.75U-Hotswap-ReversedStabilizers" (id 2) (at 74.93 103.505 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 74.93 103.505 0)
@@ -7499,7 +7525,7 @@
   (symbol (lib_id "Device:D_Small") (at 44.45 78.74 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 671fc4a8-8b88-4bcb-9c54-7c1fba0aad0e)
-    (property "Reference" "D55" (id 0) (at 46.228 77.5716 90)
+    (property "Reference" "D56" (id 0) (at 46.228 77.5716 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D_Small" (id 1) (at 46.228 79.883 90)
@@ -7571,7 +7597,7 @@
   (symbol (lib_id "Device:D_Small") (at 80.01 106.045 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 6f8864eb-1964-4ce8-bae7-f6663ab23cfc)
-    (property "Reference" "D73" (id 0) (at 81.788 104.8766 90)
+    (property "Reference" "D74" (id 0) (at 81.788 104.8766 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D_Small" (id 1) (at 81.788 107.188 90)
@@ -7605,7 +7631,7 @@
   (symbol (lib_id "Device:D_Small") (at 511.302 106.426 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 71b348eb-5afe-46fa-803f-3f9473433bc3)
-    (property "Reference" "D77" (id 0) (at 513.08 105.2576 90)
+    (property "Reference" "D78" (id 0) (at 513.08 105.2576 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D_Small" (id 1) (at 513.08 107.569 90)
@@ -7643,7 +7669,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 506.222 86.614 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 7304e26f-29ee-48db-ba8e-a52d1cf33245)
-    (property "Reference" "SW70" (id 0) (at 506.222 80.645 0))
+    (property "Reference" "SW71" (id 0) (at 506.222 80.645 0))
     (property "Value" "SW_SPST" (id 1) (at 506.222 82.9564 0))
     (property "Footprint" "MX_Only:MXOnly-1U-Hotswap" (id 2) (at 506.222 86.614 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -7653,6 +7679,21 @@
     )
     (pin "1" (uuid 68fc9f46-28af-42c6-86a0-cdb1711b7d7f))
     (pin "2" (uuid f4ef1e4d-874d-4e31-8d5a-2fb83d9333e6))
+  )
+
+  (symbol (lib_id "Switch:SW_SPST") (at 595.122 66.294 0) (unit 1)
+    (in_bom yes) (on_board yes)
+    (uuid 741306ae-a24a-4bcd-a5fe-b7d409d0f021)
+    (property "Reference" "SW55" (id 0) (at 595.122 60.325 0))
+    (property "Value" "SW_SPST" (id 1) (at 595.122 62.6364 0))
+    (property "Footprint" "MX_Only:MXOnly-1U-Hotswap" (id 2) (at 595.122 66.294 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 595.122 66.294 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 1b0912d6-1925-412e-894f-fa1cf97f7fe7))
+    (pin "2" (uuid 71d1955a-02c9-4941-827d-604947baead9))
   )
 
   (symbol (lib_id "Device:D_Small") (at 151.13 48.26 90) (unit 1)
@@ -7711,7 +7752,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 524.002 103.886 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 79f285c9-e8bd-48b4-8480-aeff2d68612f)
-    (property "Reference" "SW78" (id 0) (at 524.002 97.917 0))
+    (property "Reference" "SW79" (id 0) (at 524.002 97.917 0))
     (property "Value" "SW_SPST" (id 1) (at 524.002 100.2284 0))
     (property "Footprint" "MX_Only:MXOnly-1U-Hotswap" (id 2) (at 524.002 103.886 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -7726,7 +7767,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 541.782 114.046 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 7d3c7a7f-3d6a-42af-a916-e40377882cd4)
-    (property "Reference" "SW87" (id 0) (at 541.782 108.077 0))
+    (property "Reference" "SW88" (id 0) (at 541.782 108.077 0))
     (property "Value" "SW_SPST" (id 1) (at 541.782 110.3884 0))
     (property "Footprint" "MX_Only:MXOnly-1U-Hotswap" (id 2) (at 541.782 114.046 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -7775,7 +7816,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 541.782 76.454 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 84337ad4-c831-4bb2-9455-69c5e23b6c87)
-    (property "Reference" "SW63" (id 0) (at 541.782 70.485 0))
+    (property "Reference" "SW64" (id 0) (at 541.782 70.485 0))
     (property "Value" "SW_SPST" (id 1) (at 541.782 72.7964 0))
     (property "Footprint" "MX_Only:MXOnly-1U-Hotswap" (id 2) (at 541.782 76.454 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -7828,7 +7869,7 @@
   (symbol (lib_id "Device:D_Small") (at 133.35 106.045 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 88a01ae5-29e6-48fb-9c21-b7f5da508cc8)
-    (property "Reference" "D76" (id 0) (at 135.128 104.8766 90)
+    (property "Reference" "D77" (id 0) (at 135.128 104.8766 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D_Small" (id 1) (at 135.128 107.188 90)
@@ -7960,7 +8001,7 @@
   (symbol (lib_id "Device:D_Small") (at 546.862 116.586 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 94aacd5d-8ea3-40d6-b422-b44c8f420bf6)
-    (property "Reference" "D87" (id 0) (at 548.64 115.4176 90)
+    (property "Reference" "D88" (id 0) (at 548.64 115.4176 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D_Small" (id 1) (at 548.64 117.729 90)
@@ -8028,7 +8069,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 110.49 76.2 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid a0763d0e-179e-4e33-96a6-a7c1fed1e92b)
-    (property "Reference" "SW59" (id 0) (at 110.49 70.231 0))
+    (property "Reference" "SW60" (id 0) (at 110.49 70.231 0))
     (property "Value" "SW_SPST" (id 1) (at 110.49 72.5424 0))
     (property "Footprint" "MX_Only:MXOnly-1U-Hotswap" (id 2) (at 110.49 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -8111,7 +8152,7 @@
   (symbol (lib_id "Device:D_Small") (at 97.79 106.045 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid a3bc9c1b-c401-4a67-a999-17df68bb9df3)
-    (property "Reference" "D74" (id 0) (at 99.568 104.8766 90)
+    (property "Reference" "D75" (id 0) (at 99.568 104.8766 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D_Small" (id 1) (at 99.568 107.188 90)
@@ -8149,7 +8190,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 128.27 86.36 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid a526cadd-24b9-4de1-b011-b4aa440bfb85)
-    (property "Reference" "SW69" (id 0) (at 128.27 80.391 0))
+    (property "Reference" "SW70" (id 0) (at 128.27 80.391 0))
     (property "Value" "SW_SPST" (id 1) (at 128.27 82.7024 0))
     (property "Footprint" "MX_Only:MXOnly-1U-Hotswap" (id 2) (at 128.27 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -8164,7 +8205,7 @@
   (symbol (lib_id "Device:D_Small") (at 133.35 78.74 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid a71a4da0-d00d-450b-8abb-c5c3067d65a7)
-    (property "Reference" "D60" (id 0) (at 135.128 77.5716 90)
+    (property "Reference" "D61" (id 0) (at 135.128 77.5716 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D_Small" (id 1) (at 135.128 79.883 90)
@@ -8183,7 +8224,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 541.782 103.886 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid a74fc6b2-857d-4493-8915-1506601d4743)
-    (property "Reference" "SW79" (id 0) (at 541.782 97.917 0))
+    (property "Reference" "SW80" (id 0) (at 541.782 97.917 0))
     (property "Value" "SW_SPST" (id 1) (at 541.782 100.2284 0))
     (property "Footprint" "MX_Only:MXOnly-1U-Hotswap" (id 2) (at 541.782 103.886 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -8232,7 +8273,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 57.15 86.36 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid af0b7219-6b03-4ed2-bd95-069e8c6e843f)
-    (property "Reference" "SW68" (id 0) (at 57.15 80.391 0))
+    (property "Reference" "SW69" (id 0) (at 57.15 80.391 0))
     (property "Value" "SW_SPST" (id 1) (at 57.15 82.7024 0))
     (property "Footprint" "MX_Only:MXOnly-1.25U-Hotswap" (id 2) (at 57.15 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -8247,7 +8288,7 @@
   (symbol (lib_id "Device:D_Small") (at 44.45 88.9 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid afe13f80-360c-4255-8f13-7bf8cbcbe4d9)
-    (property "Reference" "D67" (id 0) (at 46.228 87.7316 90)
+    (property "Reference" "D68" (id 0) (at 46.228 87.7316 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D_Small" (id 1) (at 46.228 90.043 90)
@@ -8319,7 +8360,7 @@
   (symbol (lib_id "Device:D_Small") (at 582.422 89.154 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid b5156f1b-313a-4b73-9fde-a398d66cdbc1)
-    (property "Reference" "D71" (id 0) (at 584.2 87.9856 90)
+    (property "Reference" "D72" (id 0) (at 584.2 87.9856 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D_Small" (id 1) (at 584.2 90.297 90)
@@ -8372,7 +8413,7 @@
   (symbol (lib_id "Device:D_Small") (at 529.082 106.426 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid b78d307d-b86c-4b67-a842-f8963b8190be)
-    (property "Reference" "D78" (id 0) (at 530.86 105.2576 90)
+    (property "Reference" "D79" (id 0) (at 530.86 105.2576 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D_Small" (id 1) (at 530.86 107.569 90)
@@ -8410,7 +8451,7 @@
   (symbol (lib_id "Device:D_Small") (at 62.23 78.74 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid bc21fcff-25ed-4094-8135-b3548f708881)
-    (property "Reference" "D56" (id 0) (at 64.008 77.5716 90)
+    (property "Reference" "D57" (id 0) (at 64.008 77.5716 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D_Small" (id 1) (at 64.008 79.883 90)
@@ -8463,7 +8504,7 @@
   (symbol (lib_id "Device:D_Small") (at 600.202 89.154 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid be1c588f-ddb4-41da-b73d-6f665bac6b26)
-    (property "Reference" "D72" (id 0) (at 601.98 87.9856 90)
+    (property "Reference" "D73" (id 0) (at 601.98 87.9856 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D_Small" (id 1) (at 601.98 90.297 90)
@@ -8497,7 +8538,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 559.562 114.046 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid be90bf61-74a1-43b5-b7b2-887f5b711ede)
-    (property "Reference" "SW88" (id 0) (at 559.562 108.077 0))
+    (property "Reference" "SW89" (id 0) (at 559.562 108.077 0))
     (property "Value" "SW_SPST" (id 1) (at 559.562 110.3884 0))
     (property "Footprint" "MX_Only:MXOnly-1U-Hotswap" (id 2) (at 559.562 114.046 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -8542,9 +8583,9 @@
   (symbol (lib_id "Switch:SW_SPST") (at 128.27 103.505 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid c297fc55-060d-4803-8a81-49ebe6ebc3f2)
-    (property "Reference" "SW76" (id 0) (at 128.27 97.536 0))
+    (property "Reference" "SW77" (id 0) (at 128.27 97.536 0))
     (property "Value" "SW_SPST" (id 1) (at 128.27 99.8474 0))
-    (property "Footprint" "MX_Only:MXOnly-1U-Hotswap" (id 2) (at 128.27 103.505 0)
+    (property "Footprint" "MX_Only:MXOnly-1.25U-Hotswap" (id 2) (at 128.27 103.505 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 128.27 103.505 0)
@@ -8557,7 +8598,7 @@
   (symbol (lib_id "Device:D_Small") (at 97.79 78.74 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid c2c8ebac-895e-4ef2-a729-a7f25897c566)
-    (property "Reference" "D58" (id 0) (at 99.568 77.5716 90)
+    (property "Reference" "D59" (id 0) (at 99.568 77.5716 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D_Small" (id 1) (at 99.568 79.883 90)
@@ -8576,7 +8617,7 @@
   (symbol (lib_id "Device:D_Small") (at 546.862 106.426 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid c6ef98e4-14b3-4291-ab62-2970b1080abb)
-    (property "Reference" "D79" (id 0) (at 548.64 105.2576 90)
+    (property "Reference" "D80" (id 0) (at 548.64 105.2576 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D_Small" (id 1) (at 548.64 107.569 90)
@@ -8610,9 +8651,9 @@
   (symbol (lib_id "Switch:SW_SPST") (at 110.49 103.505 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid c7855a1d-8ae8-4b46-8293-802734fb2185)
-    (property "Reference" "SW75" (id 0) (at 110.49 97.536 0))
+    (property "Reference" "SW76" (id 0) (at 110.49 97.536 0))
     (property "Value" "SW_SPST" (id 1) (at 110.49 99.8474 0))
-    (property "Footprint" "MX_Only:MXOnly-1U-Hotswap" (id 2) (at 110.49 103.505 0)
+    (property "Footprint" "MX_Only:MXOnly-1.25U-Hotswap" (id 2) (at 110.49 103.505 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 110.49 103.505 0)
@@ -8625,7 +8666,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 577.342 76.454 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid c801766d-d489-4a05-8324-5daca9a5a0d0)
-    (property "Reference" "SW65" (id 0) (at 577.342 70.485 0))
+    (property "Reference" "SW66" (id 0) (at 577.342 70.485 0))
     (property "Value" "SW_SPST" (id 1) (at 577.342 72.7964 0))
     (property "Footprint" "MX_Only:MXOnly-1U-Hotswap" (id 2) (at 577.342 76.454 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -8670,7 +8711,7 @@
   (symbol (lib_id "Device:Rotary_Encoder_Switch") (at 505.46 131.826 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid cd3cfd52-436b-4c10-b0a5-53f2107f5d25)
-    (property "Reference" "SW90" (id 0) (at 506.73 123.571 0)
+    (property "Reference" "SW91" (id 0) (at 506.73 123.571 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Rotary_Encoder_Switch" (id 1) (at 506.73 125.476 0)
@@ -8722,7 +8763,7 @@
   (symbol (lib_id "Device:D_Small") (at 600.202 78.994 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid d3fb0803-db62-4ffc-a8a9-286c5558046d)
-    (property "Reference" "D66" (id 0) (at 601.98 77.8256 90)
+    (property "Reference" "D67" (id 0) (at 601.98 77.8256 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D_Small" (id 1) (at 601.98 80.137 90)
@@ -8741,7 +8782,7 @@
   (symbol (lib_id "Device:D_Small") (at 133.35 88.9 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid d474aadd-797d-42b4-8bd4-b59c7bcc8ecb)
-    (property "Reference" "D69" (id 0) (at 135.128 87.7316 90)
+    (property "Reference" "D70" (id 0) (at 135.128 87.7316 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D_Small" (id 1) (at 135.128 90.043 90)
@@ -8760,7 +8801,7 @@
   (symbol (lib_id "Device:D_Small") (at 582.422 78.994 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid d4a1d8af-4d4f-4f8c-9c66-2c7ac42c775b)
-    (property "Reference" "D65" (id 0) (at 584.2 77.8256 90)
+    (property "Reference" "D66" (id 0) (at 584.2 77.8256 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D_Small" (id 1) (at 584.2 80.137 90)
@@ -8847,7 +8888,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 74.93 76.2 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid db531280-ce48-4611-b250-0ded9754b4fd)
-    (property "Reference" "SW57" (id 0) (at 74.93 70.231 0))
+    (property "Reference" "SW58" (id 0) (at 74.93 70.231 0))
     (property "Value" "SW_SPST" (id 1) (at 74.93 72.5424 0))
     (property "Footprint" "MX_Only:MXOnly-1U-Hotswap" (id 2) (at 74.93 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -8862,7 +8903,7 @@
   (symbol (lib_id "Device:D_Small") (at 529.082 78.994 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid dd68b23c-61f0-4653-b9da-4f13c78c9eba)
-    (property "Reference" "D62" (id 0) (at 530.86 77.8256 90)
+    (property "Reference" "D63" (id 0) (at 530.86 77.8256 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D_Small" (id 1) (at 530.86 80.137 90)
@@ -8900,7 +8941,7 @@
   (symbol (lib_id "Device:D_Small") (at 511.302 116.586 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid de29c1dd-4697-48da-a648-b8d0b2a77a36)
-    (property "Reference" "D85" (id 0) (at 513.08 115.4176 90)
+    (property "Reference" "D86" (id 0) (at 513.08 115.4176 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D_Small" (id 1) (at 513.08 117.729 90)
@@ -8953,7 +8994,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 524.002 76.454 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid e1947e7a-d67e-44f6-b0b0-c6fa59e58eb8)
-    (property "Reference" "SW62" (id 0) (at 524.002 70.485 0))
+    (property "Reference" "SW63" (id 0) (at 524.002 70.485 0))
     (property "Value" "SW_SPST" (id 1) (at 524.002 72.7964 0))
     (property "Footprint" "MX_Only:MXOnly-1U-Hotswap" (id 2) (at 524.002 76.454 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -9006,7 +9047,7 @@
   (symbol (lib_id "Device:D_Small") (at 80.01 78.74 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid e45693c8-7c4a-4727-8cd7-6e013c87eae6)
-    (property "Reference" "D57" (id 0) (at 81.788 77.5716 90)
+    (property "Reference" "D58" (id 0) (at 81.788 77.5716 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "D_Small" (id 1) (at 81.788 79.883 90)
@@ -9191,7 +9232,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 92.71 113.665 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid f69cea02-6eca-45fc-b968-d5aee36e2f5b)
-    (property "Reference" "SW82" (id 0) (at 92.71 107.696 0))
+    (property "Reference" "SW83" (id 0) (at 92.71 107.696 0))
     (property "Value" "SW_SPST" (id 1) (at 92.71 110.0074 0))
     (property "Footprint" "MX_Only:MXOnly-1U-Hotswap" (id 2) (at 92.71 113.665 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -9221,7 +9262,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 595.122 76.454 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid f6e479a3-0c90-4029-aafa-cb20205ceea3)
-    (property "Reference" "SW66" (id 0) (at 595.122 70.485 0))
+    (property "Reference" "SW67" (id 0) (at 595.122 70.485 0))
     (property "Value" "SW_SPST" (id 1) (at 595.122 72.7964 0))
     (property "Footprint" "MX_Only:MXOnly-1U-Hotswap" (id 2) (at 595.122 76.454 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -9236,7 +9277,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 506.222 103.886 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid fa71d399-44a8-43ee-8505-9d9bfcc53b5f)
-    (property "Reference" "SW77" (id 0) (at 506.222 97.917 0))
+    (property "Reference" "SW78" (id 0) (at 506.222 97.917 0))
     (property "Value" "SW_SPST" (id 1) (at 506.222 100.2284 0))
     (property "Footprint" "MX_Only:MXOnly-1U-Hotswap" (id 2) (at 506.222 103.886 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -9674,125 +9715,128 @@
     (path "/670c035c-f475-46f9-93c6-0934d1e206ac"
       (reference "D54") (unit 1) (value "D_Small") (footprint "Diode_SMD:D_SOD-123")
     )
-    (path "/671fc4a8-8b88-4bcb-9c54-7c1fba0aad0e"
+    (path "/3ad2b82e-b34e-4186-bb64-b696ec9af188"
       (reference "D55") (unit 1) (value "D_Small") (footprint "Diode_SMD:D_SOD-123")
     )
-    (path "/bc21fcff-25ed-4094-8135-b3548f708881"
+    (path "/671fc4a8-8b88-4bcb-9c54-7c1fba0aad0e"
       (reference "D56") (unit 1) (value "D_Small") (footprint "Diode_SMD:D_SOD-123")
     )
-    (path "/e45693c8-7c4a-4727-8cd7-6e013c87eae6"
+    (path "/bc21fcff-25ed-4094-8135-b3548f708881"
       (reference "D57") (unit 1) (value "D_Small") (footprint "Diode_SMD:D_SOD-123")
     )
-    (path "/c2c8ebac-895e-4ef2-a729-a7f25897c566"
+    (path "/e45693c8-7c4a-4727-8cd7-6e013c87eae6"
       (reference "D58") (unit 1) (value "D_Small") (footprint "Diode_SMD:D_SOD-123")
     )
-    (path "/17b787ff-0994-4a57-8ec9-aa2256743d06"
+    (path "/c2c8ebac-895e-4ef2-a729-a7f25897c566"
       (reference "D59") (unit 1) (value "D_Small") (footprint "Diode_SMD:D_SOD-123")
     )
-    (path "/a71a4da0-d00d-450b-8abb-c5c3067d65a7"
+    (path "/17b787ff-0994-4a57-8ec9-aa2256743d06"
       (reference "D60") (unit 1) (value "D_Small") (footprint "Diode_SMD:D_SOD-123")
     )
-    (path "/06e436cd-bb3b-467f-8cfe-1337a1410060"
+    (path "/a71a4da0-d00d-450b-8abb-c5c3067d65a7"
       (reference "D61") (unit 1) (value "D_Small") (footprint "Diode_SMD:D_SOD-123")
     )
-    (path "/dd68b23c-61f0-4653-b9da-4f13c78c9eba"
+    (path "/06e436cd-bb3b-467f-8cfe-1337a1410060"
       (reference "D62") (unit 1) (value "D_Small") (footprint "Diode_SMD:D_SOD-123")
     )
-    (path "/06b7d4b9-e983-4dfa-b9a9-87a4d8650d02"
+    (path "/dd68b23c-61f0-4653-b9da-4f13c78c9eba"
       (reference "D63") (unit 1) (value "D_Small") (footprint "Diode_SMD:D_SOD-123")
     )
-    (path "/515fdd07-b2b2-471a-b046-abc3225a0937"
+    (path "/06b7d4b9-e983-4dfa-b9a9-87a4d8650d02"
       (reference "D64") (unit 1) (value "D_Small") (footprint "Diode_SMD:D_SOD-123")
     )
-    (path "/d4a1d8af-4d4f-4f8c-9c66-2c7ac42c775b"
+    (path "/515fdd07-b2b2-471a-b046-abc3225a0937"
       (reference "D65") (unit 1) (value "D_Small") (footprint "Diode_SMD:D_SOD-123")
     )
-    (path "/d3fb0803-db62-4ffc-a8a9-286c5558046d"
+    (path "/d4a1d8af-4d4f-4f8c-9c66-2c7ac42c775b"
       (reference "D66") (unit 1) (value "D_Small") (footprint "Diode_SMD:D_SOD-123")
     )
-    (path "/afe13f80-360c-4255-8f13-7bf8cbcbe4d9"
+    (path "/d3fb0803-db62-4ffc-a8a9-286c5558046d"
       (reference "D67") (unit 1) (value "D_Small") (footprint "Diode_SMD:D_SOD-123")
     )
-    (path "/20962b73-c378-4c45-9442-82007c0d2370"
+    (path "/afe13f80-360c-4255-8f13-7bf8cbcbe4d9"
       (reference "D68") (unit 1) (value "D_Small") (footprint "Diode_SMD:D_SOD-123")
     )
-    (path "/d474aadd-797d-42b4-8bd4-b59c7bcc8ecb"
+    (path "/20962b73-c378-4c45-9442-82007c0d2370"
       (reference "D69") (unit 1) (value "D_Small") (footprint "Diode_SMD:D_SOD-123")
     )
-    (path "/458f8155-4c61-4e51-87c1-4681b0b1b614"
+    (path "/d474aadd-797d-42b4-8bd4-b59c7bcc8ecb"
       (reference "D70") (unit 1) (value "D_Small") (footprint "Diode_SMD:D_SOD-123")
     )
-    (path "/b5156f1b-313a-4b73-9fde-a398d66cdbc1"
+    (path "/458f8155-4c61-4e51-87c1-4681b0b1b614"
       (reference "D71") (unit 1) (value "D_Small") (footprint "Diode_SMD:D_SOD-123")
     )
-    (path "/be1c588f-ddb4-41da-b73d-6f665bac6b26"
+    (path "/b5156f1b-313a-4b73-9fde-a398d66cdbc1"
       (reference "D72") (unit 1) (value "D_Small") (footprint "Diode_SMD:D_SOD-123")
     )
-    (path "/6f8864eb-1964-4ce8-bae7-f6663ab23cfc"
+    (path "/be1c588f-ddb4-41da-b73d-6f665bac6b26"
       (reference "D73") (unit 1) (value "D_Small") (footprint "Diode_SMD:D_SOD-123")
     )
-    (path "/a3bc9c1b-c401-4a67-a999-17df68bb9df3"
+    (path "/6f8864eb-1964-4ce8-bae7-f6663ab23cfc"
       (reference "D74") (unit 1) (value "D_Small") (footprint "Diode_SMD:D_SOD-123")
     )
-    (path "/548b1a5f-bb2f-4969-b21a-767bfc4b060b"
+    (path "/a3bc9c1b-c401-4a67-a999-17df68bb9df3"
       (reference "D75") (unit 1) (value "D_Small") (footprint "Diode_SMD:D_SOD-123")
     )
-    (path "/88a01ae5-29e6-48fb-9c21-b7f5da508cc8"
+    (path "/548b1a5f-bb2f-4969-b21a-767bfc4b060b"
       (reference "D76") (unit 1) (value "D_Small") (footprint "Diode_SMD:D_SOD-123")
     )
-    (path "/71b348eb-5afe-46fa-803f-3f9473433bc3"
+    (path "/88a01ae5-29e6-48fb-9c21-b7f5da508cc8"
       (reference "D77") (unit 1) (value "D_Small") (footprint "Diode_SMD:D_SOD-123")
     )
-    (path "/b78d307d-b86c-4b67-a842-f8963b8190be"
+    (path "/71b348eb-5afe-46fa-803f-3f9473433bc3"
       (reference "D78") (unit 1) (value "D_Small") (footprint "Diode_SMD:D_SOD-123")
     )
-    (path "/c6ef98e4-14b3-4291-ab62-2970b1080abb"
+    (path "/b78d307d-b86c-4b67-a842-f8963b8190be"
       (reference "D79") (unit 1) (value "D_Small") (footprint "Diode_SMD:D_SOD-123")
     )
-    (path "/3c57829b-c7e9-4b78-9219-07f12112ca88"
+    (path "/c6ef98e4-14b3-4291-ab62-2970b1080abb"
       (reference "D80") (unit 1) (value "D_Small") (footprint "Diode_SMD:D_SOD-123")
     )
-    (path "/153a16cc-d18a-45e0-8279-f60fd84920a6"
+    (path "/3c57829b-c7e9-4b78-9219-07f12112ca88"
       (reference "D81") (unit 1) (value "D_Small") (footprint "Diode_SMD:D_SOD-123")
     )
-    (path "/00000000-0000-0000-0000-000061443343"
+    (path "/153a16cc-d18a-45e0-8279-f60fd84920a6"
       (reference "D82") (unit 1) (value "D_Small") (footprint "Diode_SMD:D_SOD-123")
     )
-    (path "/00000000-0000-0000-0000-00006142aa07"
+    (path "/00000000-0000-0000-0000-000061443343"
       (reference "D83") (unit 1) (value "D_Small") (footprint "Diode_SMD:D_SOD-123")
     )
-    (path "/00000000-0000-0000-0000-0000614378c3"
+    (path "/00000000-0000-0000-0000-00006142aa07"
       (reference "D84") (unit 1) (value "D_Small") (footprint "Diode_SMD:D_SOD-123")
     )
-    (path "/de29c1dd-4697-48da-a648-b8d0b2a77a36"
+    (path "/00000000-0000-0000-0000-0000614378c3"
       (reference "D85") (unit 1) (value "D_Small") (footprint "Diode_SMD:D_SOD-123")
     )
-    (path "/25a7c391-a6d5-4333-ac31-f99b56646c3c"
+    (path "/de29c1dd-4697-48da-a648-b8d0b2a77a36"
       (reference "D86") (unit 1) (value "D_Small") (footprint "Diode_SMD:D_SOD-123")
     )
-    (path "/94aacd5d-8ea3-40d6-b422-b44c8f420bf6"
+    (path "/25a7c391-a6d5-4333-ac31-f99b56646c3c"
       (reference "D87") (unit 1) (value "D_Small") (footprint "Diode_SMD:D_SOD-123")
     )
-    (path "/44785c7b-26bf-4404-ac8d-3b3fe6773e92"
+    (path "/94aacd5d-8ea3-40d6-b422-b44c8f420bf6"
       (reference "D88") (unit 1) (value "D_Small") (footprint "Diode_SMD:D_SOD-123")
     )
-    (path "/00000000-0000-0000-0000-0000600ad062"
-      (reference "D89") (unit 1) (value "1N5819") (footprint "Diode_SMD:D_SOD-123")
+    (path "/44785c7b-26bf-4404-ac8d-3b3fe6773e92"
+      (reference "D89") (unit 1) (value "D_Small") (footprint "Diode_SMD:D_SOD-123")
     )
-    (path "/00000000-0000-0000-0000-00006132a622"
+    (path "/00000000-0000-0000-0000-0000600ad062"
       (reference "D90") (unit 1) (value "1N5819") (footprint "Diode_SMD:D_SOD-123")
     )
-    (path "/00000000-0000-0000-0000-000060201668"
-      (reference "D91") (unit 1) (value "SR05") (footprint "Package_TO_SOT_SMD:SOT-143")
+    (path "/00000000-0000-0000-0000-00006132a622"
+      (reference "D91") (unit 1) (value "1N5819") (footprint "Diode_SMD:D_SOD-123")
     )
-    (path "/00000000-0000-0000-0000-00006132a698"
+    (path "/00000000-0000-0000-0000-000060201668"
       (reference "D92") (unit 1) (value "SR05") (footprint "Package_TO_SOT_SMD:SOT-143")
     )
+    (path "/00000000-0000-0000-0000-00006132a698"
+      (reference "D93") (unit 1) (value "SR05") (footprint "Package_TO_SOT_SMD:SOT-143")
+    )
     (path "/00000000-0000-0000-0000-00006076628e"
-      (reference "D93") (unit 1) (value "LED_Small") (footprint "Diode_SMD:D_0805_2012Metric")
+      (reference "D94") (unit 1) (value "LED_Small") (footprint "Diode_SMD:D_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-00006132a64d"
-      (reference "D94") (unit 1) (value "LED_Small") (footprint "Diode_SMD:D_0805_2012Metric")
+      (reference "D95") (unit 1) (value "LED_Small") (footprint "Diode_SMD:D_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-0000600324ff"
       (reference "F1") (unit 1) (value "500ma") (footprint "Fuse:Fuse_1206_3216Metric")
@@ -10040,125 +10084,128 @@
     (path "/e8c51345-e2c6-43fc-a1b8-42bf33b105ea"
       (reference "SW54") (unit 1) (value "SW_SPST") (footprint "MX_Only:MXOnly-1U-Hotswap")
     )
+    (path "/741306ae-a24a-4bcd-a5fe-b7d409d0f021"
+      (reference "SW55") (unit 1) (value "SW_SPST") (footprint "MX_Only:MXOnly-1U-Hotswap")
+    )
     (path "/5730edc7-c9d0-4a84-97b4-55a6421a1d75"
-      (reference "SW55") (unit 1) (value "SW_SPST") (footprint "MX_Only:MXOnly-1.75U-Hotswap")
+      (reference "SW56") (unit 1) (value "SW_SPST") (footprint "MX_Only:MXOnly-1.75U-Hotswap")
     )
     (path "/1c5bb74a-0844-4f8a-977e-cf307165c739"
-      (reference "SW56") (unit 1) (value "SW_SPST") (footprint "MX_Only:MXOnly-1U-Hotswap")
-    )
-    (path "/db531280-ce48-4611-b250-0ded9754b4fd"
       (reference "SW57") (unit 1) (value "SW_SPST") (footprint "MX_Only:MXOnly-1U-Hotswap")
     )
-    (path "/34efd530-624c-403c-b80a-06bbc99edd5d"
+    (path "/db531280-ce48-4611-b250-0ded9754b4fd"
       (reference "SW58") (unit 1) (value "SW_SPST") (footprint "MX_Only:MXOnly-1U-Hotswap")
     )
-    (path "/a0763d0e-179e-4e33-96a6-a7c1fed1e92b"
+    (path "/34efd530-624c-403c-b80a-06bbc99edd5d"
       (reference "SW59") (unit 1) (value "SW_SPST") (footprint "MX_Only:MXOnly-1U-Hotswap")
     )
-    (path "/1b6403c6-cd7b-4518-b4ee-84dfd9d27955"
+    (path "/a0763d0e-179e-4e33-96a6-a7c1fed1e92b"
       (reference "SW60") (unit 1) (value "SW_SPST") (footprint "MX_Only:MXOnly-1U-Hotswap")
     )
-    (path "/08a165a7-ccee-41b4-b99d-139490e071ca"
+    (path "/1b6403c6-cd7b-4518-b4ee-84dfd9d27955"
       (reference "SW61") (unit 1) (value "SW_SPST") (footprint "MX_Only:MXOnly-1U-Hotswap")
     )
-    (path "/e1947e7a-d67e-44f6-b0b0-c6fa59e58eb8"
+    (path "/08a165a7-ccee-41b4-b99d-139490e071ca"
       (reference "SW62") (unit 1) (value "SW_SPST") (footprint "MX_Only:MXOnly-1U-Hotswap")
     )
-    (path "/84337ad4-c831-4bb2-9455-69c5e23b6c87"
+    (path "/e1947e7a-d67e-44f6-b0b0-c6fa59e58eb8"
       (reference "SW63") (unit 1) (value "SW_SPST") (footprint "MX_Only:MXOnly-1U-Hotswap")
     )
-    (path "/35c0778f-6949-45ff-9751-9bdbcd0057e1"
+    (path "/84337ad4-c831-4bb2-9455-69c5e23b6c87"
       (reference "SW64") (unit 1) (value "SW_SPST") (footprint "MX_Only:MXOnly-1U-Hotswap")
     )
-    (path "/c801766d-d489-4a05-8324-5daca9a5a0d0"
+    (path "/35c0778f-6949-45ff-9751-9bdbcd0057e1"
       (reference "SW65") (unit 1) (value "SW_SPST") (footprint "MX_Only:MXOnly-1U-Hotswap")
     )
-    (path "/f6e479a3-0c90-4029-aafa-cb20205ceea3"
+    (path "/c801766d-d489-4a05-8324-5daca9a5a0d0"
       (reference "SW66") (unit 1) (value "SW_SPST") (footprint "MX_Only:MXOnly-1U-Hotswap")
     )
-    (path "/0a399abe-dcc4-49e4-a240-600e8d5438eb"
-      (reference "SW67") (unit 1) (value "SW_SPST") (footprint "MX_Only:MXOnly-1.25U-Hotswap")
+    (path "/f6e479a3-0c90-4029-aafa-cb20205ceea3"
+      (reference "SW67") (unit 1) (value "SW_SPST") (footprint "MX_Only:MXOnly-1U-Hotswap")
     )
-    (path "/af0b7219-6b03-4ed2-bd95-069e8c6e843f"
+    (path "/0a399abe-dcc4-49e4-a240-600e8d5438eb"
       (reference "SW68") (unit 1) (value "SW_SPST") (footprint "MX_Only:MXOnly-1.25U-Hotswap")
     )
-    (path "/a526cadd-24b9-4de1-b011-b4aa440bfb85"
-      (reference "SW69") (unit 1) (value "SW_SPST") (footprint "MX_Only:MXOnly-1U-Hotswap")
+    (path "/af0b7219-6b03-4ed2-bd95-069e8c6e843f"
+      (reference "SW69") (unit 1) (value "SW_SPST") (footprint "MX_Only:MXOnly-1.25U-Hotswap")
     )
-    (path "/7304e26f-29ee-48db-ba8e-a52d1cf33245"
+    (path "/a526cadd-24b9-4de1-b011-b4aa440bfb85"
       (reference "SW70") (unit 1) (value "SW_SPST") (footprint "MX_Only:MXOnly-1U-Hotswap")
     )
+    (path "/7304e26f-29ee-48db-ba8e-a52d1cf33245"
+      (reference "SW71") (unit 1) (value "SW_SPST") (footprint "MX_Only:MXOnly-1U-Hotswap")
+    )
     (path "/4173fd77-51b6-4d96-a24a-e3a75a365b7f"
-      (reference "SW71") (unit 1) (value "SW_SPST") (footprint "MX_Only:MXOnly-2U-Hotswap-ReversedStabilizers")
+      (reference "SW72") (unit 1) (value "SW_SPST") (footprint "MX_Only:MXOnly-2U-Hotswap-ReversedStabilizers")
     )
     (path "/497bc44f-43cd-4a3b-9323-f81df34db7dd"
-      (reference "SW72") (unit 1) (value "SW_SPST") (footprint "MX_Only:MXOnly-1.25U-Hotswap")
+      (reference "SW73") (unit 1) (value "SW_SPST") (footprint "MX_Only:MXOnly-1.25U-Hotswap")
     )
     (path "/621276d1-051c-4225-bde8-c32b4ed05998"
-      (reference "SW73") (unit 1) (value "SW_SPST") (footprint "MX_Only:MXOnly-1U-Hotswap")
+      (reference "SW74") (unit 1) (value "SW_SPST") (footprint "MX_Only:MXOnly-2.75U-Hotswap-ReversedStabilizers")
     )
     (path "/00000000-0000-0000-0000-00006144333d"
-      (reference "SW74") (unit 1) (value "SW_SPST") (footprint "MX_Only:MXOnly-1U-Hotswap")
+      (reference "SW75") (unit 1) (value "SW_SPST") (footprint "MX_Only:MXOnly-1.25U-Hotswap")
     )
     (path "/c7855a1d-8ae8-4b46-8293-802734fb2185"
-      (reference "SW75") (unit 1) (value "SW_SPST") (footprint "MX_Only:MXOnly-1U-Hotswap")
+      (reference "SW76") (unit 1) (value "SW_SPST") (footprint "MX_Only:MXOnly-1.25U-Hotswap")
     )
     (path "/c297fc55-060d-4803-8a81-49ebe6ebc3f2"
-      (reference "SW76") (unit 1) (value "SW_SPST") (footprint "MX_Only:MXOnly-1U-Hotswap")
+      (reference "SW77") (unit 1) (value "SW_SPST") (footprint "MX_Only:MXOnly-1.25U-Hotswap")
     )
     (path "/fa71d399-44a8-43ee-8505-9d9bfcc53b5f"
-      (reference "SW77") (unit 1) (value "SW_SPST") (footprint "MX_Only:MXOnly-1U-Hotswap")
-    )
-    (path "/79f285c9-e8bd-48b4-8480-aeff2d68612f"
       (reference "SW78") (unit 1) (value "SW_SPST") (footprint "MX_Only:MXOnly-1U-Hotswap")
     )
-    (path "/a74fc6b2-857d-4493-8915-1506601d4743"
+    (path "/79f285c9-e8bd-48b4-8480-aeff2d68612f"
       (reference "SW79") (unit 1) (value "SW_SPST") (footprint "MX_Only:MXOnly-1U-Hotswap")
     )
-    (path "/125bb8dd-745e-4b63-82d5-102aaca46205"
+    (path "/a74fc6b2-857d-4493-8915-1506601d4743"
       (reference "SW80") (unit 1) (value "SW_SPST") (footprint "MX_Only:MXOnly-1U-Hotswap")
     )
-    (path "/5b145c59-359c-4ad1-9968-7874051fd0d2"
+    (path "/125bb8dd-745e-4b63-82d5-102aaca46205"
       (reference "SW81") (unit 1) (value "SW_SPST") (footprint "MX_Only:MXOnly-1U-Hotswap")
     )
-    (path "/f69cea02-6eca-45fc-b968-d5aee36e2f5b"
+    (path "/5b145c59-359c-4ad1-9968-7874051fd0d2"
       (reference "SW82") (unit 1) (value "SW_SPST") (footprint "MX_Only:MXOnly-1U-Hotswap")
     )
-    (path "/00000000-0000-0000-0000-00006142aa01"
+    (path "/f69cea02-6eca-45fc-b968-d5aee36e2f5b"
       (reference "SW83") (unit 1) (value "SW_SPST") (footprint "MX_Only:MXOnly-1U-Hotswap")
     )
-    (path "/00000000-0000-0000-0000-0000614378bd"
+    (path "/00000000-0000-0000-0000-00006142aa01"
       (reference "SW84") (unit 1) (value "SW_SPST") (footprint "MX_Only:MXOnly-1U-Hotswap")
     )
-    (path "/072e5554-bae8-4d98-b7cc-521cdbbea126"
+    (path "/00000000-0000-0000-0000-0000614378bd"
       (reference "SW85") (unit 1) (value "SW_SPST") (footprint "MX_Only:MXOnly-1U-Hotswap")
     )
-    (path "/4cc705eb-dbe6-4171-88ee-b912825d8231"
+    (path "/072e5554-bae8-4d98-b7cc-521cdbbea126"
       (reference "SW86") (unit 1) (value "SW_SPST") (footprint "MX_Only:MXOnly-1U-Hotswap")
     )
-    (path "/7d3c7a7f-3d6a-42af-a916-e40377882cd4"
+    (path "/4cc705eb-dbe6-4171-88ee-b912825d8231"
       (reference "SW87") (unit 1) (value "SW_SPST") (footprint "MX_Only:MXOnly-1U-Hotswap")
     )
-    (path "/be90bf61-74a1-43b5-b7b2-887f5b711ede"
+    (path "/7d3c7a7f-3d6a-42af-a916-e40377882cd4"
       (reference "SW88") (unit 1) (value "SW_SPST") (footprint "MX_Only:MXOnly-1U-Hotswap")
     )
-    (path "/00000000-0000-0000-0000-0000612a8b55"
-      (reference "SW89") (unit 1) (value "Rotary_Encoder_Switch") (footprint "Keebio-Parts:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm")
+    (path "/be90bf61-74a1-43b5-b7b2-887f5b711ede"
+      (reference "SW89") (unit 1) (value "SW_SPST") (footprint "MX_Only:MXOnly-1U-Hotswap")
     )
-    (path "/cd3cfd52-436b-4c10-b0a5-53f2107f5d25"
+    (path "/00000000-0000-0000-0000-0000612a8b55"
       (reference "SW90") (unit 1) (value "Rotary_Encoder_Switch") (footprint "Keebio-Parts:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm")
     )
+    (path "/cd3cfd52-436b-4c10-b0a5-53f2107f5d25"
+      (reference "SW91") (unit 1) (value "Rotary_Encoder_Switch") (footprint "Keebio-Parts:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm")
+    )
     (path "/00000000-0000-0000-0000-0000607a14fa"
-      (reference "SW91") (unit 1) (value "SW_SPDT") (footprint "Button_Switch_SMD:SW_SPDT_PCM12")
+      (reference "SW92") (unit 1) (value "SW_SPDT") (footprint "Button_Switch_SMD:SW_SPDT_PCM12")
     )
     (path "/00000000-0000-0000-0000-0000600c3204"
-      (reference "SW92") (unit 1) (value "SW_SPST") (footprint "Keebio-Parts:SW_SPST_TL3342")
-    )
-    (path "/00000000-0000-0000-0000-00006132a63e"
       (reference "SW93") (unit 1) (value "SW_SPST") (footprint "Keebio-Parts:SW_SPST_TL3342")
     )
+    (path "/00000000-0000-0000-0000-00006132a63e"
+      (reference "SW94") (unit 1) (value "SW_SPST") (footprint "Keebio-Parts:SW_SPST_TL3342")
+    )
     (path "/00000000-0000-0000-0000-00006132a666"
-      (reference "SW94") (unit 1) (value "SW_SPDT") (footprint "Button_Switch_SMD:SW_SPDT_PCM12")
+      (reference "SW95") (unit 1) (value "SW_SPDT") (footprint "Button_Switch_SMD:SW_SPDT_PCM12")
     )
     (path "/00000000-0000-0000-0000-000060096f9e"
       (reference "U1") (unit 1) (value "XC6206") (footprint "Package_TO_SOT_SMD:SOT-23")

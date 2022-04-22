@@ -4576,13 +4576,6 @@
       (effects (font (size 1.27 1.27)) hide)
     )
   )
-  (global_label "RH_COL1" (shape input) (at 489.712 270.51 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid fb46aa41-b12c-4796-83fe-69d4ee74f743)
-    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 405.892 826.77 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-  )
 
   (symbol (lib_id "kicad-keyboard-parts:nRF52840_holyiot_18010") (at 54.102 251.46 0) (unit 1)
     (in_bom yes) (on_board yes)

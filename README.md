@@ -6,7 +6,7 @@ A column-staggered keyboard inspired by comfortable and efficient thumb use and 
 <h5><b>Comfy Thumbs Rev 1</b></h5>
 
 
-[Check out the Gist on Keyboard Layout Editor](http://www.keyboard-layout-editor.com/#/gists/f06e432c5aefd1113cb8e74766a2c700)
+[Check out the Gist on Keyboard Layout Editor](http://www.keyboard-layout-editor.com/#/gists/36e706f383088aca6e862086f8b5e326)
 ![Default Keymap](./ComfyThumbsLayout.jpg)
 <p>
 
@@ -20,7 +20,7 @@ Comfy Thumbs has the highest keycap compatibility of any column-staggered board.
 
 |Thumb Cluster Style|# of keys|Avg. reach from Home Position|
 |---|---|---|
-|ComfyThumbs|5|1u
+|ComfyThumbs|6|1u
 |Manuform/Dactyl-Manuform|6|3.5u
 |Maltron/Dacyl/Kenesis/Ergodox|6-8|4.5u
 

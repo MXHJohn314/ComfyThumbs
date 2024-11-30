@@ -3,7 +3,7 @@
 A column-staggered keyboard inspired by comfortable and efficient thumb use and keycap compatibility.
 
 ### The Default Keymap
-<h5><b>Comfy Thumbs Rev 1</b></h5>
+<h5><b>Comfy Thumbs (v3)</b></h5>
 
 
 [Check out the Gist on Keyboard Layout Editor](http://www.keyboard-layout-editor.com/#/gists/36e706f383088aca6e862086f8b5e326)

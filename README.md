@@ -31,7 +31,7 @@ Unlike other large thumb cluster designs that waste valuable space by pushing th
 Your pinkies have been doing way more work than they should. That's why modifiers have moved to the thumb cluster. Adding to that, the index fingers have a new inner column for `Tab`, `\ `, `-`, `=`,  `[` and `]`.
 
 
-Keyboard Maintainer: [MXHJoht314](https://github.com/MXHJoht314)  
+Keyboard Maintainer: [MXHJohn314](https://mxhjohn314.github.io/)  
 
 ### Compiling the Firmware
 
